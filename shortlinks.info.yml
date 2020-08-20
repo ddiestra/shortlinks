@@ -1,0 +1,5 @@
+name: Short Links
+type: module
+description: 'Generate short links'
+package: custom
+core: 8.x

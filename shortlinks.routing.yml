@@ -1,0 +1,20 @@
+shortlinks.index:
+  path: '/links'
+  defaults:
+    _controller: '\Drupal\shortlinks\Controller\LinkController::showForm'
+  requirements:
+    _permission: 'access content'
+
+shortlinks.view:
+  path: '/links/view/{code}'
+  defaults:
+    _controller: '\Drupal\shortlinks\Controller\LinkController::view'
+  requirements:
+    _permission: 'access content'
+
+shortlinks.goto:
+  path: '/links/{code}'
+  defaults:
+    _controller: '\Drupal\shortlinks\Controller\LinkController::goto'
+  requirements:
+    _permission: 'access content'

@@ -1,0 +1,18 @@
+.links-form .form-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.links-form .button {
+  margin: 16px 0;
+  border-radius: 0;
+  padding: 0 24px;
+}
+
+.links-form .form-wrapper table {
+  min-width: 100%;
+}
+
+.links-form .form-wrapper table thead {
+  display: none;
+}

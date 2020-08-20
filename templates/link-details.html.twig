@@ -1,0 +1,18 @@
+<div class="links--details">
+
+  <h2>Link: {{ item.code}}</h2>
+
+  <div class="links--details--path">
+    <strong>Total redirects:</strong> {{item.counter}}
+  </div>
+
+  <div class="links--details--path">
+    <strong>Path:</strong> {{item.path}}
+  </div>
+
+  <div class="links--details--link">
+    <a href="{{ url('shortlinks.goto', {'code': item.code}) }}" target="_blank">
+      {{ url('shortlinks.goto', {'code': item.code}) }}
+    </a>
+  </div>
+</div>
